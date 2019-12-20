@@ -13,7 +13,8 @@ const Logo = styled.span`
 function App() {
   return (
     <StyledNavbar variant="dark" expand="lg">
-      <Navbar.Brand href="#">
+      <Navbar.Brand href="#" className="d-flex justify-content-between">
+        <Logo>LinkAPI</Logo>
         <Logo>LinkAPI</Logo>
       </Navbar.Brand>
     </StyledNavbar>
