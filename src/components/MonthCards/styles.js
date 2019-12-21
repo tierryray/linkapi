@@ -53,6 +53,18 @@ export const DropdownRow = styled(Row)`
 `;
 
 export const StyledDropdown = styled(Dropdown)`
+  margin-top: 10px;
+  button {
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+
+  .dropdown-menu {
+    font-size: 12px;
+  }
+
   .dropdown-toggle::after {
+    margin-left: 65px;
   }
 `;

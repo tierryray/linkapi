@@ -70,7 +70,7 @@ const MonthCards = () => (
     </StyledRow>
 
     <DropdownRow style={{ marginTop: '10px' }}>
-      <Col lg={3}>
+      <Col lg={2}>
         <StyledDropdown>
           <StyledDropdown.Toggle variant="" id="dropdown-basic">
             Last 7 days
@@ -78,46 +78,28 @@ const MonthCards = () => (
 
           <StyledDropdown.Menu>
             <StyledDropdown.Item href="#/action-1">Action</StyledDropdown.Item>
-            <StyledDropdown.Item href="#/action-2">
-              Another action
-            </StyledDropdown.Item>
-            <StyledDropdown.Item href="#/action-3">
-              Something else
-            </StyledDropdown.Item>
           </StyledDropdown.Menu>
         </StyledDropdown>
       </Col>
-      <Col lg={3}>
+      <Col lg={2}>
         <StyledDropdown>
           <StyledDropdown.Toggle variant="" id="dropdown-basic">
-            Dropdown Button
+            All tenants
           </StyledDropdown.Toggle>
 
           <StyledDropdown.Menu>
             <StyledDropdown.Item href="#/action-1">Action</StyledDropdown.Item>
-            <StyledDropdown.Item href="#/action-2">
-              Another action
-            </StyledDropdown.Item>
-            <StyledDropdown.Item href="#/action-3">
-              Something else
-            </StyledDropdown.Item>
           </StyledDropdown.Menu>
         </StyledDropdown>
       </Col>
-      <Col lg={3}>
+      <Col lg={2}>
         <StyledDropdown>
           <StyledDropdown.Toggle variant="" id="dropdown-basic">
-            Dropdown Button
+            All projects
           </StyledDropdown.Toggle>
 
           <StyledDropdown.Menu>
             <StyledDropdown.Item href="#/action-1">Action</StyledDropdown.Item>
-            <StyledDropdown.Item href="#/action-2">
-              Another action
-            </StyledDropdown.Item>
-            <StyledDropdown.Item href="#/action-3">
-              Something else
-            </StyledDropdown.Item>
           </StyledDropdown.Menu>
         </StyledDropdown>
       </Col>
