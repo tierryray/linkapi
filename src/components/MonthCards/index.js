@@ -7,7 +7,7 @@ import {
   Title,
   Link,
   Smaller,
-  MainContent,
+  MainContentDiv,
   Numbers,
   StyledProgressBar,
   StyledRow,
@@ -17,12 +17,15 @@ import {
 
 const MonthCards = () => (
   <>
+    <h2 style={{ fontWeight: 'bold', marginTop: '20px' }}>Monthly overview</h2>
     <StyledRow>
       <Col lg={4}>
         <StyledCard color="#b46edb">
           <Title color="#b46edb">Remaining transactions</Title>
           <Smaller>Renew on 2019-12-31</Smaller>
-          <MainContent>99,964</MainContent>
+          <MainContentDiv>
+            <h1>99,964</h1>
+          </MainContentDiv>
           <Numbers>
             <span>100,036</span>
             <span>200,000</span>
@@ -40,7 +43,9 @@ const MonthCards = () => (
         <StyledCard>
           <Title>Active jobs</Title>
           <Link href="#">View all jobs</Link>
-          <MainContent>12</MainContent>
+          <MainContentDiv>
+            <h1>12</h1>
+          </MainContentDiv>
         </StyledCard>
       </Col>
 
@@ -48,7 +53,9 @@ const MonthCards = () => (
         <StyledCard color="#37AAFF">
           <Title color="#37AAFF">Active tenants</Title>
           <Link href="#">View all tenants</Link>
-          <MainContent>1</MainContent>
+          <MainContentDiv>
+            <h1>1</h1>
+          </MainContentDiv>
         </StyledCard>
       </Col>
 
@@ -56,7 +63,9 @@ const MonthCards = () => (
         <StyledCard color="#3DC997">
           <Title color="#3DC997">Success</Title>
           <Smaller>December</Smaller>
-          <MainContent>99.91%</MainContent>
+          <MainContentDiv>
+            <h1>99,91%</h1>
+          </MainContentDiv>
         </StyledCard>
       </Col>
 
@@ -64,7 +73,9 @@ const MonthCards = () => (
         <StyledCard color="#EC4C3B">
           <Title color="#EC4C3B">Error</Title>
           <Smaller>December</Smaller>
-          <MainContent>00.09%</MainContent>
+          <MainContentDiv>
+            <h1>00.09%</h1>
+          </MainContentDiv>
         </StyledCard>
       </Col>
     </StyledRow>

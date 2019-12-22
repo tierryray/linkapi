@@ -14,12 +14,18 @@ export const Link = styled.a`
 `;
 
 export const Smaller = styled.small`
-  color: #c2c2c2;
+  color: #bbb;
 `;
 
-export const MainContent = styled.h1`
-  font-weight: bold;
-  margin-top: 10px;
+export const MainContentDiv = styled.div`
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  h1 {
+    font-weight: bold;
+    margin: 10px 0 0 0;
+  }
 `;
 
 export const Numbers = styled.div`

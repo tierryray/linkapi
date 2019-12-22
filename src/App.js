@@ -3,6 +3,7 @@ import { Container, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
 import MonthCards from './components/MonthCards';
+import TransactionsCards from './components/Transactions';
 
 const StyledNavbar = styled(Navbar)`
   background-color: #39bd8e;
@@ -22,10 +23,8 @@ function App() {
       </StyledNavbar>
 
       <Container fluid>
-        <h2 style={{ fontWeight: 'bold', marginTop: '20px' }}>
-          Monthly overview
-        </h2>
         <MonthCards />
+        <TransactionsCards />
       </Container>
     </>
   );

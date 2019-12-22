@@ -4,6 +4,7 @@ import { Card } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const BordererCard = styled(Card)`
+  min-height: 148px;
   border-top: 5px solid ${props => props.color};
 `;
 
@@ -11,7 +12,10 @@ const StyledCard = props => {
   const { color, children } = props;
 
   return (
-    <BordererCard color={color} className="shadow p-3 mt-3 bg-white rounded">
+    <BordererCard
+      color={color}
+      className="shadow p-3 mt-3 bg-white rounded d-flex justify-content-center"
+    >
       {children}
     </BordererCard>
   );
@@ -23,7 +27,7 @@ StyledCard.propTypes = {
 };
 
 StyledCard.defaultProps = {
-  color: '#c7c7c7',
+  color: '#bbb',
 };
 
 export default StyledCard;
