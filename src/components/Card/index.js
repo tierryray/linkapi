@@ -6,6 +6,12 @@ import styled from 'styled-components';
 const BordererCard = styled(Card)`
   min-height: 148px;
   ${props => `border-${props.borderside}: 5px solid ${props.color}`};
+  transform: scale(1);
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `;
 
 const StyledCard = props => {

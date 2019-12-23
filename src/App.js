@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container, Navbar } from 'react-bootstrap';
+import { Container, Navbar, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
 import MonthCards from './components/MonthCards';
 import TransactionsCards from './components/Transactions';
 import JobsRunning from './components/JobsRunning';
 import JobsCards from './components/JobsCards';
+import OverviewCard from './components/OverviewCard';
 
 const StyledNavbar = styled(Navbar)`
   background-color: #39bd8e;
@@ -13,10 +14,6 @@ const StyledNavbar = styled(Navbar)`
 
 const Logo = styled.span`
   padding: 5px 10px;
-`;
-
-const StyledDiv = styled.div`
-  display: flex;
 `;
 
 function App() {
@@ -28,17 +25,18 @@ function App() {
         </Navbar.Brand>
       </StyledNavbar>
 
-      <Container fluid>
+      <Container fluid style={{ paddingBottom: '20px' }}>
         <MonthCards />
-        <StyledDiv>
-          <div style={{ flex: '3' }}>
+        <Row>
+          <Col lg={9}>
             <TransactionsCards />
             <JobsCards />
-          </div>
-          <div style={{ flex: '1' }}>
+            <OverviewCard />
+          </Col>
+          <Col lg={3}>
             <JobsRunning />
-          </div>
-        </StyledDiv>
+          </Col>
+        </Row>
       </Container>
     </>
   );

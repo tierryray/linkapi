@@ -2,6 +2,11 @@ import styled from 'styled-components';
 
 import { ProgressBar, Row, Dropdown } from 'react-bootstrap';
 
+export const OverTitle = styled.h1`
+  font-weight: bold;
+  margin-top: 20px;
+`;
+
 export const Title = styled.span`
   font-size: 22px;
   font-weight: bold;
@@ -9,6 +14,7 @@ export const Title = styled.span`
 `;
 
 export const Link = styled.a`
+  display: inline;
   text-decoration: underline;
   font-size: 14px;
 `;

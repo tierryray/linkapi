@@ -8,11 +8,13 @@ import { Title, Subtitle, Link, MainContentDiv } from './styles';
 const JobsCards = () => (
   <>
     <h2 style={{ fontWeight: 'bold', marginTop: '30px' }}>Jobs</h2>
-    <Row style={{ marginRight: '10px' }}>
+    <Row>
       <Col lg={4}>
         <StyledCard>
           <Title color="#3DC997">create products</Title>
-          <Link href="#">See logs</Link>
+          <span>
+            <Link href="#">See logs</Link>
+          </span>
           <MainContentDiv>
             <div>
               <Subtitle>Success</Subtitle>
@@ -33,7 +35,9 @@ const JobsCards = () => (
       <Col lg={4}>
         <StyledCard>
           <Title color="#3DC997">peopleSync</Title>
-          <Link href="#">See logs</Link>
+          <span>
+            <Link href="#">See logs</Link>
+          </span>
           <MainContentDiv>
             <div>
               <Subtitle>Success</Subtitle>
@@ -54,7 +58,9 @@ const JobsCards = () => (
       <Col lg={4}>
         <StyledCard>
           <Title color="#3DC997">enganeSync</Title>
-          <Link href="#">See logs</Link>
+          <span>
+            <Link href="#">See logs</Link>
+          </span>
           <MainContentDiv>
             <div>
               <Subtitle>Success</Subtitle>
@@ -75,7 +81,9 @@ const JobsCards = () => (
       <Col lg={4}>
         <StyledCard>
           <Title color="#3DC997">projects</Title>
-          <Link href="#">See logs</Link>
+          <span>
+            <Link href="#">See logs</Link>
+          </span>
           <MainContentDiv>
             <div>
               <Subtitle>Success</Subtitle>
@@ -96,7 +104,9 @@ const JobsCards = () => (
       <Col lg={4}>
         <StyledCard>
           <Title color="#3DC997">teamAppointments</Title>
-          <Link href="#">See logs</Link>
+          <span>
+            <Link href="#">See logs</Link>
+          </span>
           <MainContentDiv>
             <div>
               <Subtitle>Success</Subtitle>
@@ -117,7 +127,9 @@ const JobsCards = () => (
       <Col lg={4}>
         <StyledCard>
           <Title color="#3DC997">eventSync</Title>
-          <Link href="#">See logs</Link>
+          <span>
+            <Link href="#">See logs</Link>
+          </span>
           <MainContentDiv>
             <div>
               <Subtitle>Success</Subtitle>

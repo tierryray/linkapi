@@ -7,7 +7,7 @@ import { Title, Smaller, MainContentDiv, StyledList, ListItem } from './styles';
 const Transactions = () => (
   <>
     <h2 style={{ fontWeight: 'bold', marginTop: '30px' }}>Transactions</h2>
-    <Row style={{ marginRight: '10px' }}>
+    <Row>
       <Col lg={4}>
         <StyledCard color="#3DC997">
           <Title color="#3DC997">Success</Title>

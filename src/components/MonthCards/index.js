@@ -4,6 +4,7 @@ import { Col } from 'react-bootstrap';
 import StyledCard from '../Card';
 
 import {
+  OverTitle,
   Title,
   Link,
   Smaller,
@@ -17,7 +18,7 @@ import {
 
 const MonthCards = () => (
   <>
-    <h2 style={{ fontWeight: 'bold', marginTop: '20px' }}>Monthly overview</h2>
+    <OverTitle>Monthly overview</OverTitle>
     <StyledRow>
       <Col lg={4}>
         <StyledCard color="#b46edb">
@@ -42,7 +43,9 @@ const MonthCards = () => (
         <h2 style={{ margin: '20px 0' }}>December</h2>
         <StyledCard>
           <Title>Active jobs</Title>
-          <Link href="#">View all jobs</Link>
+          <span>
+            <Link href="#">View all jobs</Link>
+          </span>
           <MainContentDiv>
             <h1>12</h1>
           </MainContentDiv>
@@ -52,7 +55,9 @@ const MonthCards = () => (
       <Col lg={2}>
         <StyledCard color="#37AAFF">
           <Title color="#37AAFF">Active tenants</Title>
-          <Link href="#">View all tenants</Link>
+          <span>
+            <Link href="#">View all tenants</Link>
+          </span>
           <MainContentDiv>
             <h1>1</h1>
           </MainContentDiv>
