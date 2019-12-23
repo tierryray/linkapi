@@ -13,7 +13,7 @@ Install json-server to mock API with the following command:
 
 The mock up file can be found in the `src/api/db.json` folder. After installing json-server, enter the directory, and then run the following command: `json-server -p 4000 --watch db.json`
 
-> _You must keep the command running in the port 4000 for the project to consume the api. _
+> You must keep the command running in the port 4000 for the project to consume the api.
 
 ### TECHNOLOGIES
 
