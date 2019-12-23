@@ -5,9 +5,10 @@ import { StyledContainer } from './styles';
 import Navbar from '../../components/Navbar';
 import MonthCards from '../../components/MonthCards';
 import TransactionsCards from '../../components/Transactions';
-import JobsRunning from '../../components/JobsRunning';
 import JobsCards from '../../components/JobsCards';
+import JobsRunningCard from '../../components/JobsRunningCard';
 import OverviewCard from '../../components/OverviewCard';
+import TenantOverviewCard from '../../components/TenantOverviewCard';
 
 export default function Main() {
   return (
@@ -23,7 +24,8 @@ export default function Main() {
             <OverviewCard />
           </Col>
           <Col xs={12} md={4}>
-            <JobsRunning />
+            <JobsRunningCard />
+            <TenantOverviewCard />
           </Col>
         </Row>
       </StyledContainer>

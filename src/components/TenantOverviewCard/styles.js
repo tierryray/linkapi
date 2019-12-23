@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import { Table } from 'react-bootstrap';
 
+export const OverTitle = styled.h2`
+  margin-top: 40px;
+  font-weight: bold;
+`;
+
 export const StyledTable = styled(Table)`
   margin: 0;
   tr {
