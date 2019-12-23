@@ -2,6 +2,8 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import StyledCard from '../Card';
 
+import JobsRunning from '../JobsRunning';
+
 import { Title, Smaller, MainContentDiv, StyledList, ListItem } from './styles';
 
 const Transactions = () => (
@@ -50,6 +52,8 @@ const Transactions = () => (
           </StyledList>
         </StyledCard>
       </Col>
+
+      <JobsRunning />
     </Row>
   </>
 );
