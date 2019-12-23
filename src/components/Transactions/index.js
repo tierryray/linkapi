@@ -2,15 +2,13 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import StyledCard from '../Card';
 
-import JobsRunning from '../JobsRunning';
-
 import { Title, Smaller, MainContentDiv, StyledList, ListItem } from './styles';
 
 const Transactions = () => (
   <>
     <h2 style={{ fontWeight: 'bold', marginTop: '30px' }}>Transactions</h2>
-    <Row>
-      <Col lg={3}>
+    <Row style={{ marginRight: '10px' }}>
+      <Col lg={4}>
         <StyledCard color="#3DC997">
           <Title color="#3DC997">Success</Title>
           <Smaller>December</Smaller>
@@ -21,7 +19,7 @@ const Transactions = () => (
         </StyledCard>
       </Col>
 
-      <Col lg={3}>
+      <Col lg={4}>
         <StyledCard color="#EC4C3B">
           <Title color="#EC4C3B">Error</Title>
           <Smaller>December</Smaller>
@@ -32,7 +30,7 @@ const Transactions = () => (
         </StyledCard>
       </Col>
 
-      <Col lg={3}>
+      <Col lg={4}>
         <StyledCard>
           <StyledList>
             <ListItem color="#F4AB23">
@@ -52,8 +50,6 @@ const Transactions = () => (
           </StyledList>
         </StyledCard>
       </Col>
-
-      <JobsRunning />
     </Row>
   </>
 );

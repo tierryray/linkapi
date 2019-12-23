@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import MonthCards from './components/MonthCards';
 import TransactionsCards from './components/Transactions';
+import JobsRunning from './components/JobsRunning';
 
 const StyledNavbar = styled(Navbar)`
   background-color: #39bd8e;
@@ -11,6 +12,18 @@ const StyledNavbar = styled(Navbar)`
 
 const Logo = styled.span`
   padding: 5px 10px;
+`;
+
+const StyledDiv = styled.div`
+  display: flex;
+
+  div:first-child {
+    flex: 4;
+  }
+
+  div:last-child {
+    flex: 1;
+  }
 `;
 
 function App() {
@@ -24,7 +37,15 @@ function App() {
 
       <Container fluid>
         <MonthCards />
-        <TransactionsCards />
+        <StyledDiv>
+          <div>
+            <TransactionsCards />
+            <TransactionsCards />
+          </div>
+          <div>
+            <JobsRunning />
+          </div>
+        </StyledDiv>
       </Container>
     </>
   );
