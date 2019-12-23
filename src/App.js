@@ -17,14 +17,6 @@ const Logo = styled.span`
 
 const StyledDiv = styled.div`
   display: flex;
-
-  div:first-child {
-    flex: 3;
-  }
-
-  div:last-child {
-    flex: 1;
-  }
 `;
 
 function App() {
@@ -39,11 +31,11 @@ function App() {
       <Container fluid>
         <MonthCards />
         <StyledDiv>
-          <div>
+          <div style={{ flex: '3' }}>
             <TransactionsCards />
             <JobsCards />
           </div>
-          <div>
+          <div style={{ flex: '1' }}>
             <JobsRunning />
           </div>
         </StyledDiv>
