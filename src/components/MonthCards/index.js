@@ -64,7 +64,7 @@ const MonthCards = () => (
           <Title color="#3DC997">Success</Title>
           <Smaller>December</Smaller>
           <MainContentDiv>
-            <h1>99,91%</h1>
+            <h1>99.91%</h1>
           </MainContentDiv>
         </StyledCard>
       </Col>

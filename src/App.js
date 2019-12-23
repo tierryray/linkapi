@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import MonthCards from './components/MonthCards';
 import TransactionsCards from './components/Transactions';
 import JobsRunning from './components/JobsRunning';
+import JobsCards from './components/JobsCards';
 
 const StyledNavbar = styled(Navbar)`
   background-color: #39bd8e;
@@ -18,7 +19,7 @@ const StyledDiv = styled.div`
   display: flex;
 
   div:first-child {
-    flex: 4;
+    flex: 3;
   }
 
   div:last-child {
@@ -40,7 +41,7 @@ function App() {
         <StyledDiv>
           <div>
             <TransactionsCards />
-            <TransactionsCards />
+            <JobsCards />
           </div>
           <div>
             <JobsRunning />

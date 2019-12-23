@@ -16,7 +16,7 @@ const JobsRunning = () => (
           <span>No Jobs Running</span>
         </StyledContent>
       </StyledCard>
-      <h3 style={{ fontWeight: 'bold', marginTop: '20px' }}>
+      <h3 style={{ fontWeight: 'bold', marginTop: '30px' }}>
         Tenant error overview
       </h3>
       <StyledCard color="#37AAFF">
