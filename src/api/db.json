@@ -1,0 +1,114 @@
+{
+  "dashboard": {
+    "monthlyOverview": {
+      "remainingTransactions": "99,964",
+      "executionsConsumed": "100,036",
+      "executionsLimit": "200,00"
+    },
+    "actually": {
+      "month": "December",
+      "activeJobs": 12,
+      "activeTenants": 1,
+      "success": "99.91",
+      "error": "00.09"
+    },
+    "transactions": {
+      "percentageSuccess": "00.09",
+      "percentageError": "00.09",
+      "successResults": 64,
+      "errorResults": "83,229",
+      "reject": 0,
+      "alert": 0,
+      "empty": 0
+    },
+    "jobs": {
+      "createProducts": {
+        "percentage": "00.0",
+        "total": 0,
+        "success": 0,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      },
+      "peopleSync": {
+        "percentage": "100.0",
+        "total": 4899,
+        "success": 4899,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      },
+      "engageSync": {
+        "percentage": "100.0",
+        "total": 7897,
+        "success": 7897,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      },
+      "projects": {
+        "percentage": "100.0",
+        "total": 1504,
+        "success": 1504,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      },
+      "teamAppointments": {
+        "percentage": "100.0",
+        "total": 320,
+        "success": 320,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      },
+      "eventSync": {
+        "percentage": "100.0",
+        "total": 32,
+        "success": 32,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      }
+    },
+    "overviewTable": [
+      {
+        "id": 1,
+        "job": "create products",
+        "tenant": "#main",
+        "project": "BI LinkAPI",
+        "total": 0,
+        "success": 0,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      },
+      {
+        "id": 2,
+        "job": "peopleSync",
+        "tenant": "#main",
+        "project": "BI LinkAPI",
+        "total": 4889,
+        "success": 4889,
+        "error": 0,
+        "reject": 0,
+        "alert": 0,
+        "empty": 0
+      }
+    ],
+    "tenantError": [
+      {
+        "id": 1,
+        "tenant": "#main",
+        "error": 74
+      }
+    ]
+  }
+}
