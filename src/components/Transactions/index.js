@@ -2,13 +2,20 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import StyledCard from '../Card';
 
-import { Title, Smaller, MainContentDiv, StyledList, ListItem } from './styles';
+import {
+  OverTitle,
+  Title,
+  Smaller,
+  MainContentDiv,
+  StyledList,
+  ListItem,
+} from './styles';
 
 const Transactions = () => (
   <>
-    <h2 style={{ fontWeight: 'bold', marginTop: '30px' }}>Transactions</h2>
+    <OverTitle>Transactions</OverTitle>
     <Row>
-      <Col lg={4}>
+      <Col xs={12} md={12} lg={4}>
         <StyledCard color="#3DC997">
           <Title color="#3DC997">Success</Title>
           <Smaller>December</Smaller>
@@ -19,7 +26,7 @@ const Transactions = () => (
         </StyledCard>
       </Col>
 
-      <Col lg={4}>
+      <Col xs={12} md={12} lg={4}>
         <StyledCard color="#EC4C3B">
           <Title color="#EC4C3B">Error</Title>
           <Smaller>December</Smaller>
@@ -30,7 +37,7 @@ const Transactions = () => (
         </StyledCard>
       </Col>
 
-      <Col lg={4}>
+      <Col xs={12} md={12} lg={4}>
         <StyledCard>
           <StyledList>
             <ListItem color="#F4AB23">

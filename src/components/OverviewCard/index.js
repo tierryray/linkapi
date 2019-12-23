@@ -7,7 +7,7 @@ import { Title, StyledTable } from './styles';
 const OverviewCard = () => (
   <Row>
     <Col lg={12}>
-      <StyledCard style={{ marginRight: '10px' }}>
+      <StyledCard>
         <Title>Overview by last executions</Title>
         <StyledTable responsive>
           <thead>

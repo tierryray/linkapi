@@ -3,11 +3,11 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import StyledCard from '../Card';
 
-import { Title, Subtitle, Link, MainContentDiv } from './styles';
+import { OverTitle, Title, Subtitle, Link, MainContentDiv } from './styles';
 
 const JobsCards = () => (
   <>
-    <h2 style={{ fontWeight: 'bold', marginTop: '30px' }}>Jobs</h2>
+    <OverTitle>Jobs</OverTitle>
     <Row>
       <Col lg={4}>
         <StyledCard>

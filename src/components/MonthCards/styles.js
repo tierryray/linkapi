@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { ProgressBar, Row, Dropdown } from 'react-bootstrap';
 
-export const OverTitle = styled.h1`
+export const OverTitle = styled.h2`
   font-weight: bold;
   margin-top: 20px;
 `;
@@ -62,6 +62,7 @@ export const StyledRow = styled(Row)`
 export const DropdownRow = styled(Row)`
   display: flex;
   justify-content: flex-start;
+  margin-top: 10px;
 `;
 
 export const StyledDropdown = styled(Dropdown)`

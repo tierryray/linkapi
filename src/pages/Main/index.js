@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import { StyledContainer } from './styles';
 
 import Navbar from '../../components/Navbar';
 import MonthCards from '../../components/MonthCards';
@@ -13,19 +14,19 @@ export default function Main() {
     <>
       <Navbar />
 
-      <Container fluid style={{ paddingBottom: '20px' }}>
+      <StyledContainer fluid>
         <MonthCards />
         <Row>
-          <Col lg={9}>
+          <Col xs={12} md={8}>
             <TransactionsCards />
             <JobsCards />
             <OverviewCard />
           </Col>
-          <Col lg={3}>
+          <Col xs={12} md={4}>
             <JobsRunning />
           </Col>
         </Row>
-      </Container>
+      </StyledContainer>
     </>
   );
 }

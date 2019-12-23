@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const OverTitle = styled.h2`
+  font-weight: bold;
+  margin-top: 30px;
+`;
+
 export const Title = styled.span`
   font-size: 22px;
   font-weight: bold;

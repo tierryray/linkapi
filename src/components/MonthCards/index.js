@@ -40,7 +40,7 @@ const MonthCards = () => (
       </Col>
 
       <Col lg={2}>
-        <h2 style={{ margin: '20px 0' }}>December</h2>
+        <OverTitle>December</OverTitle>
         <StyledCard>
           <Title>Active jobs</Title>
           <span>
@@ -85,7 +85,7 @@ const MonthCards = () => (
       </Col>
     </StyledRow>
 
-    <DropdownRow style={{ marginTop: '10px' }}>
+    <DropdownRow>
       <Col lg={2}>
         <StyledDropdown>
           <StyledDropdown.Toggle variant="" id="dropdown-basic">
