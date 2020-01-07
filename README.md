@@ -15,6 +15,16 @@ The mock up file can be found in the `src/api/db.json` folder. After installing 
 
 > You must keep the command running in the port 4000 for the project to consume the api.
 
+### RUNNING THE PROJECT
+
+Just run the folowwing command:
+
+`yarn start` or `npm start`
+
+This command will automatically open the browser on `http://localhost:3000`.
+
+
+
 ### TECHNOLOGIES
 
 | TECH                 | LINK                                                       |
