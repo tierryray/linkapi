@@ -18,8 +18,8 @@ export default function Main() {
   const [actually, setActually] = useState({});
   const [transactions, setTransactions] = useState({});
   const [jobs, setJobs] = useState({});
-  const [overviewTable, setOverviewTable] = useState({});
-  const [tenantError, setTenantError] = useState({});
+  const [overviewTable, setOverviewTable] = useState([]);
+  const [tenantError, setTenantError] = useState([]);
 
   useEffect(() => {
     (async function getData() {

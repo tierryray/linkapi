@@ -20,7 +20,6 @@ const StyledCard = ({ color, border, loading, children }) => {
     <BordererCard
       color={color}
       borderside={border}
-      loading={loading}
       className="shadow p-3 mt-3 bg-white rounded d-flex justify-content-center"
     >
       {loading && <Loading />}
